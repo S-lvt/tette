@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* 共通部分-----------------*/
+html{
+    font-size: 100%;
+}
+
+body{
+    color: #3A3A3A
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding-top:20px;
+    text-align-last: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #665846;
+    text-align: center;
+    background-color: #96DFD6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:80px;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #96DFD6;
+    text-align: center;
+    background-color:  #665846;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+header{
+    background-color: #665846;
+    height:60px;
+    width:100%;
+    position: fixed;
+}
+.header-logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white
+}
+
+.main-nav{
+    display: flex;
+    font-size:1.1rem;
+    text-transform: uppercase;
+    margin: top 25px;
+    list-style: none;
+}
+
+.main-nav a{
+    color: white;
+    padding-left:20px;
+}
+
+.main.nav a:hover{
+    color:#96DFD6;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top:15px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.catch{
+    color: #665846;
+    font-size:1.25rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top:20px;
+}
+
+.mini_lovot{
+    text-align: center;
+    padding-top:20px
+}
+
+.road_icon{
+    text-align: center;
+    padding-top:30px;
+}
+
+.grid{
+    display: grid;
+    gap:26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+input,textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border:1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color:#b3a087;
+    color: #eff1ec;
+  }
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #665846;
+}
+
+.footer-c{
+    color:white;
+    text-align: center;
+    padding-top:10px;
+    margin-top:50px;
+}
