@@ -116,6 +116,7 @@ header{
   padding-left: 30px;
   line-height: 25px;
 }
+
 .road_icon{
     text-align: center;
     padding-top:30px;
@@ -123,10 +124,23 @@ header{
 
 .grid{
     display: grid;
+    max-width: 680px;
+    width: 97%;
+    margin: 0 auto;
+    height: auto;
     gap:26px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 6%;
     margin-bottom: 50px;
+}
+
+.formbox{
+    max-width: 680px;
+    width: 97%;
+    margin: 0 auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
