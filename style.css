@@ -42,22 +42,20 @@ h3{
 
 header{
     background-color: #665846;
-    height:60px;
     width:100%;
-    position: fixed;
+    position: sticky;
 }
 
 .header-logo{
     font-size: 1.5rem;
     font-weight: bold;
-    color: white
+    color: white;
 }
 
 .main-nav{
     display: flex;
     font-size:1.1rem;
     text-transform: uppercase;
-    margin: top 25px;
     list-style: none;
 }
 
@@ -78,6 +76,9 @@ header{
     padding-right: 10px;
 }
 
+.top_image{
+    background-image: url(images\backimage.png);
+}
 .CONCEPT , .Top_MENU{
     background-color: #FEF2E2;
 }
@@ -116,6 +117,10 @@ header{
   margin-right: auto;
   padding-left: 30px;
   line-height: 25px;
+}
+
+.Top_ROAD{
+    background-image: url(images\backimage.png);
 }
 
 .road_icon{
