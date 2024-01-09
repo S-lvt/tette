@@ -78,9 +78,14 @@ header{
     padding-right: 10px;
 }
 
+.anchor{
+    padding-top: 60px;
+}
+
 .CONCEPT , .Top_MENU{
     background-color: #FEF2E2;
 }
+
 .catch{
     color: #665846;
     font-size:1.25rem;
