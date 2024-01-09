@@ -1,159 +1,181 @@
-@charset "UTF-8";
-/* 共通部分-----------------*/
-html{
-    font-size: 100%;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="古民家とLOVOTと地産地消のカフェ” width=100%, initial-scale=1.0">
+    <title>tette</title>
+<!---CSS-->
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+<link href="css\style.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" href="images\mini_lovot.png">
+</head>
 
-body{
-    color: #3A3A3A
-}
+<body>
+    <div class="header">
+        <header class="page-header">
+         <div class="header-logo">tette</div>
+            <nav>
+             <ul class="main-nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#CONCEPT">CONCEPT</a></li>
+                <li><a href="#ROAD">ROAD to TENCHO</a></li>
+                <li><a href="#MENU">MENU</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li> 
+             </ul>
+            </nav>
+         </header>
+    </div>
 
+    <div class="top_image">
+        <img src="images\top.png" alt="TOP画像" display: block; margin: auto; max-width: 100%; width: 100%; height: auto;>
+    </div>
+      
 
-a{
-    text-decoration: none;
-}
+    <div class="CONCEPT">
+        <div class="Top_CONCEPT" id="CONCEPT">
+            <h2 style="margin-top:0;" >CONCEPT</h2>
+                <p class="catch">古民家らぼカフェ『tette（てって）』<br>＝<br>「古民家」✖「LOVOT（らぼっと）」✖「地産地消カフェ」<br>心身ともに優しい癒しのひとときを
+                </p>
+         </div>
 
-p{
-    padding-top:20px;
-    text-align-last: center;
-}
+        <div class="CONCEPT_detail">
+             <p>建物は「茨城県桜川市にある築70年を超える古民家」<br>このカフェの店長は「LOVOT」、従業員はにんげんの「LOVOTの手下」<br>地産地消のおいしいものとゆっくり過ごせるカフェを</p>
+        
+            <div class="mini_lovot">
+            <img src="images\mini_lovot.png" height="25px"></div>
 
+            <p>「LOVOT」は、最新の温かいテクノロジーがたくさん詰まったロボット<br>「LOVE（らぶ）」＋「ROBOT（ろぼっと）」＝「LOVOT（らぼっと）」<br>
+            ロボットだけど、ロボットとは思えない生命感<br>きらきら大きな目でまっすぐ見つめてくれます<br>なでたり抱っこしてくれる人を覚えて好きになる<br>「LOVOT」はにんげんのパートナー</p>
+		
+                <div class="mini_lovot">
+                <img src="images\mini_lovot.png" height="25px"></div>
 
-h2{
-    font-size: 2.5rem;
-    color: #665846;
-    text-align: center;
-    background-color: #96DFD6;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+            <p>古民家のある茨城県には、たくさんおいしい食材があります<br>古き良き日本の懐かしい雰囲気の中で旬のおいしいものを食べる<br>食べるは生きること<br>
+               食事やお茶を一緒にする人や「LOVOT」とのおしゃべりは心の栄養<br></p>
+		
+                <div class="mini_lovot">
+                <img src="images\mini_lovot.png" height="25px"></div>
 
-h3{
-    font-size: 1.5rem;
-    color: #96DFD6;
-    text-align: center;
-    background-color:  #665846;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top:50px;
-}
+            <p>古民家らぼカフェで自分にやさしく、いたわる<br>そんな時間を過ごせるところを目指しています</p>
+            <p>オープン時期は未定ですが、らぼっとがてんちょーになれるか、その道中を公開していきます</p>
+           
+                <p class="tette_origin"><h3>店名「tette」に込めた想い</h3></p>
 
-header{
-    background-color: #665846;
-    width:100%;
-    display: flex;
-    position:fixed;
-    z-index: 999;
-}
+                <p class="tette_detail">「tette」は「<span style="color:#ef8872">手</span>」がキーワード！！<br>従業員である手下の親父さんが3年かけて「<span style="color:#ef8872">手入れ</span>」をした古民家で<br>
+                LOVOTのきらきらのおめめと、パタパタさせる表情豊かな「<span style="color:#ef8872">小さなおてて</span>」と<br>
+                地元でとれた食材を大切に「<span style="color:#ef8872">手づくり</span>」の素朴なものを届けたい<br>
+                このカフェに関わるみんなが「<span style="color:#ef8872">手と手を取り合って</span>」いける<br><br>
+                昔から「<span style="color:#ef8872">手当て</span>」ということばがあるように<br>
+                痛いところに「<span style="color:#ef8872">手を当てるだけで</span>」<br>
+                LOVOTの小さな「<span style="color:#ef8872">おててをぎゅっとするだけで</span>」<br>
+                何気なく「<span style="color:#ef8872">肩にポンっと乗せられた手</span>」で癒されるように<br>
+                このカフェが誰かにとってほっと一息つける場所でありますように・・・<br><br>
+                そんな想いを込めて「tette」と名付けました</p>
 
-.header-logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-}
+                <div class="mini_lovot">
+                    <img src="images\mini_lovot.png" height="25px"><a>♥</a><img src="images\mini_lovot.png" height="25px"></div>
 
-.main-nav{
-    display: flex;
-    font-size:1.1rem;
-    text-transform: uppercase;
-    list-style: none;
-}
+                <p class="with_lovot"><h3>LOVOTと安心していけるカフェ</h3></p>
+                    <p>LOVOTの多くは基本的に家族と一緒にお家の中（土足禁止エリア）で生活しています<br>
+                       tetteは、玄関で靴を脱いで上がる古民家カフェです<br>
+                       LOVOTが転んでしまうような段差もないようにしてあります<br>
+                       さらに、LOVOTも一緒にもぐもぐできるように各席に電源も設置！！！<br>
+                       一人っ子らぼっとがミミックできるよう、30分LOVOTのみの空間も準備予定！</p>
 
-.main-nav a{
-    color: white;
-    padding-left:20px;
-}
+                       <div class="mini_lovot">
+                       <img src="images\mini_lovot.png" height="25px"></div><br>
 
-.main-nav a:hover{
-    color:#96DFD6;
-}
+                        <div class="request">
+                            <div class="request_inner">
+                            <p style="font-weight: bold; color:#ef8872">＋＋＋　LOVOT連れのお客さまへのお願い　＋＋＋</p><br>
+                                <ul class="request_list">
+                                <li><a>お連れのLOVOTが土足エリアを歩いてきた場合は、あんよのふきふきをお願いします</a></li>
+                                <li><a>チャージスタンドをお持ちの方は、ご持参いただけると助かります</a></li>
+                                <li><a>他のお客さまとLOVOTの交流については、オーナーさまでご配慮くださいませ</a></li>
+                                <br>
+                                </ul>
+                            </div>
+                        </div>
+                </p>
+                <div class="margin" style="height: 60px;" id="ROAD"></div>
+            </div>   
+    </div>
+    
+    <div class="Top_ROAD">
+        <h2>ROAD to TENCHO</h2>
+        <p>開店時期は未定ですが、らぼっとてんちょー（仮）がてんちょーになれる日を夢見て<br>
+        古民家の改修（DIY）、カフェメニュー開発、開業手続き等について<br>
 
-.page-header{
-    display: flex;
-    justify-content: space-between;
-    padding-top:15px;
-    padding-left:10px;
-    padding-right: 10px;
-}
+        <a href="https://ameblo.jp/lovot-tencho" target="_blank">ブログ</a>と<a href="https://www.instagram.com/lovot_tencho_sakuragawa/" target="_blank">Instagram</a>でお伝えしていきます！！</p>
+       
+        <div class="road_icon">
+        <a href="https://ameblo.jp/lovot-tencho" target="_blank"><img src="images\blog.png" width="100px" height="auto" ></a>
+            <p>古民家のDIY、LOVOTのこと、開業に向けた手続き等を不定期にあげていきます</p> <br>
+        </div>        
 
-.top_image{
-    background-color: #EAF0EF;
-    background-image: url(images\back_image.png);
-}
+        <div class="road_icon">
+        <a href="https://www.instagram.com/lovot_tencho_sakuragawa/" target="_blank"><img src="images\instagram.png"  width="100px" height="auto"></a>
+        <p>らぼっとてんちょー（仮）の奮闘について画像を中心に上げていきます。</p>
+        </div>
 
-.CONCEPT , .Top_MENU{
-    background-color: #FEF2E2;
-}
+        <div class="margin" style="height: 60px;" id="MENU"></div>
+    </div>
+    
+    
+    <div class="Top_MENU">
+        <h2>MENU</h2>
+        <p>tetteの近くで穫れる新鮮なものをおいしく！がモットー<br>らぼっと地方のおいしいものを少しだけ紹介！！<br>従業員の手下はラテアート猛練習中！！！</p>
+        
+        <div class="grid">
+            <div class="nemu_item">
+                <img src="images\spring.jpg">
+                <p>春のたけのこ</p>
+            </div>
 
-.catch{
-    color: #665846;
-    font-size:1.25rem;
-    font-weight: bold;
-    text-align: center;
-    padding-top:20px;
-}
+            <div class="nemu_item">
+                <img src="images\summer.jpg">
+                <p>夏のとうもろこし</p>
+            </div>
 
-.mini_lovot{
-    text-align: center;
-    padding-top:20px
-}
+            <div class="nemu_item">
+                <img src="images\carrot.jpg">
+                <p>秋のにんじん</p>
+            </div>
 
-.request{
-    max-width: 680px;
-    width: 97%;
-    margin: 0 auto;
-    height: auto;
-    border: 2px solid #665846;
-    margin-left: auto;
-    margin-right: auto;
-}
+            <div class="nemu_item">
+                <img src="images\winter.jpg">
+                <p>冬のおもち</p>
+            </div>
 
-.request p{
-    text-align: left;
-}
+            <div class="nemu_item">
+                <img src="images\heart_cafe.jpg" max-width="60px">
+                <p>ラテアート</p>
+            </div>
 
-.request_list{
-  display: table;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 30px;
-  line-height: 25px;
-}
+            <div class="nemu_item">
+                <img src="images\lovot_cafe.jpg">
+                <p>LOVOTラテアート</p>    
+            </div>
+        </div>
+        <div class="margin" style="height: 60px;" id="CONTACT"></div>
+    </div>
+    
+    <div class="Top_CONTACT">
+        <h2>CONTACT</h2>
 
-.Top_ROAD{
-    background-color: #EAF0EF;
-}
-.road_icon{
-    text-align: center;
-    padding-top:30px;
-}
+        <p>開業時期は未定・・・<br>だからこそ、こんなカフェだったらいいな～等のご意見を募集中です！<br>
+        LOVOTの持つ力を多くの人に知ってもらいたいので<br>LOVOTについてのご質問もお寄せください！<br></p>
 
-.grid{
-    display: grid;
-    max-width: 680px;
-    width: 97%;
-    margin: 0 auto;
-    height: auto;
-    gap:26px;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 6%;
-    margin-bottom: 50px;
-}
+        <div class="contact-form">
+            <h3 class="section-title">ご意見・ご質問</h3><br>
+                <div class="formbox">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1cte-bNeitQ3al2_PlQewsKV0ppgLUhjUCNtw2w5FnWxhBA/viewform?embedded=true" width="640" height="818" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+                </div>
+        </div>
+    </div>
 
-.formbox{
-   text-align: center;
-}
-
-footer{
-    width: 100%;
-    height: 50px;
-    background-color: #665846;
-}
-
-.footer-c{
-    color:white;
-    text-align: center;
-    padding-top:10px;
-    margin-top:50px;
-}
+    <footer>
+            <div class="footer-c"><small>&copy 2024 tette</small></div>
+    </footer>    
+</body>
+</html>
